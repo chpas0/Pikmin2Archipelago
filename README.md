@@ -1,3 +1,3 @@
 # Pikmin2Archipelago
 
-hello world
+hello world 2
