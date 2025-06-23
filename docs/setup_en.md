@@ -22,7 +22,7 @@ Place all of the players' ```.yaml``` files into the ```Players``` folder of you
 ### Step 2
 Open the Archipelago Launcher (```ArchipelagoLauncher.exe```) and click the "Generate Button". If the generation succeeds, this should create a ```.zip``` archive in the ```output``` directory of your Archipelago installation.
 ### Step 3
-Unzip the archive that was just generated. There should be a ```.json``` file inside called ```pikmin2_<seed>_<player_name>```. This file will be referred to as the Pikmin 2 setup file for the rest of the guide.
+Unzip the archive that was just generated. There should be a ```.json``` file inside called ```pikmin2_<seed>_<player_name>.json```. This file will be referred to as the Pikmin 2 setup file for the rest of the guide.
 ### Step 4
 Run the ```patcher.exe``` executable that was included with the Pikmin 2 APWorld release. It will prompt you for the Pikmin 2 setup file (the ```.json``` file from Step 3) and the Pikmin 2 USA .iso file. It will output a patched version of the game to the same directory that the executable is in, called ```pikmin2_<seed>.iso```.
 ### Step 5
@@ -33,6 +33,6 @@ The client and an instance of Dolphin should launch. You can then connect to the
 **IMPORTANT NOTE: If either the client or the Dolphin instance are closed, you must close the other one. Items obtained while the client is closed will be lost!**
 
 ## Hosting a Multiworld Game
-You can upload the generated ```.zip``` file (here)[https://archipelago.gg/uploads] to launch a server.
+You can upload the generated ```.zip``` file [here](https://archipelago.gg/uploads) to launch a server.
 
 **IMPORTANT NOTE: You must delete the ```.json``` file (setup file) from the .zip archive before uploading it, otherwise the server will not launch.**
