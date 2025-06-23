@@ -36,3 +36,19 @@ The client and an instance of Dolphin should launch. You can then connect to the
 You can upload the generated ```.zip``` file [here](https://archipelago.gg/uploads) to launch a server.
 
 **IMPORTANT NOTE: You must delete the ```.json``` file (setup file) from the .zip archive before uploading it, otherwise the server will not launch.**
+
+## Playing the Game
+There are a few important quirks that must be observed when playing.
+- You must use the leftmost file slot, otherwise the passed data will get overwritten and the client will not be able to properly read the items. To be extra safe, you may also want to clear out the other save slots.
+- Due to the way the game is programmed, linking does not work on Day 1. Any items received while you are playing Day 1 will be queued and received on Day 2 once the client is linked to the game. The treasure obtained on Day 1 will also be sent once linking occurs.
+- Items can only be received if the player is in a cave or on the overworld (and not on Day 1 as previously mentioned). Items cannot be received on the world map, end of day screens, or any time the player doesn't have control.
+- Items take some time to be received by the game, so if there is a large queue of items it may take a bit for all of them to be processed. This is completely normal!
+- The game will freeze for a split second when picking up a treasure - this is also normal. In addition, certain off-world items obtained in caves will not bring up the treasure collect screen due to the way they are implemented. 
+- Off-world items in caves will respawn after being collected. Collecting them a second time won't do anything.
+- Off-world items are all worth 0 Pokos. The only exception to this is if an off-world item appears in the Day 1 treasure spot (Courage Reactor) - if this occurs, the off-world item will be worth 1 Poko because otherwise the game will not register that treasure has been collected and the day will never end. 
+- There may be some treasures that cannot fit under the branch in the Valley of Repose, causing impossible seeds. If you encounter this, please report them to me. If this occurs on Day 1, you can perform the [Day 1 Extinction glitch](https://www.youtube.com/watch?v=eOR6Gzgu9LU) to (possibly) save the seed.
+- If you ever quit and relaunch the game and then look at your save file, the displayed poko count, treasure count, and play time may/should be filled with garbage data (really big numbers). These values are only for display and will not affect your game.
+- While you are able to collect enemy corpses to repay the debt if you want, the randomizer's logic should ensure that the debt is repayable without collecting any enemy corpses.
+
+## Report Bugs
+You can report any issues [here](https://github.com/chpas0/Pikmin2Archipelago/issues).
