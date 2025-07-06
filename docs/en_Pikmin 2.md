@@ -16,10 +16,11 @@ By default, the goal is to beat the Titan Dweevil and collect Louie (King of Bug
 
 Any of the items which can be shuffled may also be placed into another player's world.
 
-## What does another world's item look like in OoT?
+## What does another world's item look like in Pikmin 2?
 
 Any item from another world currently looks like the Doomsday Apparatus (1 kg weight), but weighing 20 instead of 1000. At some point, the model will be changed, but the weight will stay the same.
 
 ## When the player receives an item, what happens?
 
 The game will process the received treasure and add its value to the Poko count. If the treasure is part of the Explorer Kit, the player will immediately gain access to the upgrade. If the player is in the overworld, the game will notify the player every 1000 Pokos, as in vanilla. If the player is in a cave, the Poko count will come up in the top right corner of the screen and actually show the Pokos being added to the counter (this happens in vanilla if an enemy corpse is collected).
+
