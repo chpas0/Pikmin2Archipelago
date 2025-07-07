@@ -14,7 +14,7 @@ Once you've installed the apworld, you can generate a yaml using the ```Generate
 
 If the .yaml file is missing in your ```Players/Templates``` folder, then please go through the apworld installation steps again, and double check that everything was done correctly.
 
-**IMPORTANT NOTE: The .yaml file has multiple options under ```Item & Location Options```, these are all untested and may not work as intended.**
+# IMPORTANT NOTE: The .yaml file has multiple options under ```Item & Location Options```, these are all untested and may not work as intended.
 
 ## Generating a Multiworld Game
 ### Step 1
@@ -30,12 +30,12 @@ Re-open the Archipelago Launcher, and click the ```Pikmin2Client``` button. You 
 ### Step 6
 The client and an instance of Dolphin should launch. You can then connect to the Archipelago server!
 
-**IMPORTANT NOTE: If either the client or the Dolphin instance are closed, you must close the other one. Items obtained while the client is closed will be lost!**
+# IMPORTANT NOTE: If either the client or the Dolphin instance are closed, you must close the other one. Only launch Dolphin through launching the client, otherwise the items will not appear in game. Items obtained while the client is closed will be lost!
 
 ## Hosting a Multiworld Game
 You can upload the generated ```.zip``` file [here](https://archipelago.gg/uploads) to launch a server.
 
-**IMPORTANT NOTE: You must delete the ```.json``` file (setup file) from the .zip archive before uploading it, otherwise the server will not launch.**
+# IMPORTANT NOTE: You must delete the ```.json``` file (setup file) from the .zip archive before uploading it, otherwise the server will not launch.
 
 ## Playing the Game
 There are a few important quirks that must be observed when playing.
@@ -49,6 +49,7 @@ There are a few important quirks that must be observed when playing.
 - There may be some treasures that cannot fit under the branch in the Valley of Repose, causing impossible seeds. If you encounter this, please report them to me. If this occurs on Day 1, you can perform the [Day 1 Extinction glitch](https://www.youtube.com/watch?v=eOR6Gzgu9LU) to (possibly) save the seed.
 - If you ever quit and relaunch the game and then look at your save file, the displayed poko count, treasure count, and play time may/should be filled with garbage data (really big numbers). These values are only for display and will not affect your game.
 - While you are able to collect enemy corpses to repay the debt if you want, the randomizer's logic should ensure that the debt is repayable without collecting any enemy corpses.
+- Don't open the Piklopedia or the Treasure Hoard! These will crash the game!
 
 ## Report Bugs
 You can report any issues [here](https://github.com/chpas0/Pikmin2Archipelago/issues).
