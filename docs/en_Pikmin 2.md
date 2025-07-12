@@ -20,7 +20,7 @@ Any of the items which can be shuffled may also be placed into another player's 
 
 Any item from another world currently looks like a marble with the AP logo inside it, made by fracta1fa1th.
 
-!\[AP marble](image.png "The Off-World Item in game.")
+!\[AP marble](https://github.com/chpas0/Pikmin2Archipelago/blob/main/docs/image.png "The Off-World Item in game.")
 
 ## When the player receives an item, what happens?
 
