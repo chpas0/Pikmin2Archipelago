@@ -18,7 +18,9 @@ Any of the items which can be shuffled may also be placed into another player's 
 
 ## What does another world's item look like in Pikmin 2?
 
-Any item from another world currently looks like the Doomsday Apparatus (1 kg weight), but weighing 20 instead of 1000. At some point, the model will be changed, but the weight will stay the same.
+Any item from another world currently looks like a marble with the AP logo inside it, made by fracta1fa1th.
+
+!\[AP marble](image.png "The Off-World Item in game.")
 
 ## When the player receives an item, what happens?
 
