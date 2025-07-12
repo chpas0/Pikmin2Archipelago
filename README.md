@@ -7,6 +7,6 @@ Setup guide can be found [here](docs/setup_en.md).
 Any questions or issues can be reported [here](https://github.com/chpas0/Pikmin2Archipelago/issues).  
 
 ## Credits
-Mod by chpas
-Off-World Item model by fracta1fa1th
-Special thanks to members of the Pikmin modding community for helping answer game knowledge questions and members of the Archipelago community for testing the mod.
+Mod by chpas  
+Off-World Item model by fracta1fa1th  
+Special thanks to members of the Pikmin modding community for helping answer game knowledge questions and members of the Archipelago community for testing the mod.  
