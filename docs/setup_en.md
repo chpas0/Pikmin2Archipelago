@@ -49,12 +49,13 @@ There are a few important quirks that must be observed when playing.
 - The game will freeze for a split second when picking up a treasure - this is also normal. In addition, certain off-world items obtained in caves will not bring up the treasure collect screen due to the way they are implemented. 
 - Off-world items in caves will respawn after being collected. Collecting them a second time won't do anything.
 - Off-world items are all worth 0 Pokos. The only exception to this is if an off-world item appears in the Day 1 treasure spot (Courage Reactor) - if this occurs, the off-world item will be worth 1 Poko because otherwise the game will not register that treasure has been collected and the day will never end. 
-- ~~There may be some treasures that cannot fit under the branch in the Valley of Repose, causing impossible seeds. If you encounter this, please report them to me. If this occurs on Day 1, you can perform the [Day 1 Extinction glitch](https://www.youtube.com/watch?v=eOR6Gzgu9LU) to (possibly) save the seed.~~ This should no longer occur, but if it does, please let me know.
 - If you ever quit and relaunch the game and then look at your save file, the displayed poko count, treasure count, and play time may/should be filled with garbage data (really big numbers). These values are only for display and will not affect your game.
 - While you are able to collect enemy corpses to repay the debt if you want, the randomizer's logic should ensure that the debt is repayable without collecting any enemy corpses. In fact, if your goal is set to collect a certain number of Pokos, the client will only recognize Pokos obtained from treasure, so it may not automatically release if you hit your goal.
 - Don't open the Piklopedia or the Treasure Hoard! These will crash the game!
 - The Spherical Atlas and Geographic Projection function slightly differently. In vanilla, the Spherical Atlas opens the Awakening Wood and the Geographic Projection opens the Perplexing Pool. In this, collecting either one will open the Awakening Wood, and collecting both will open the Perplexing Pool.
 - If a treasure is usually buried in vanilla, it will remain buried even if its location changes. Logic should ensure that buried treasures never occur in areas inaccessible to White Pikmin (water, high ledges, etc.).
+- The water around the Blue Onion is removed. If onions are shuffled, and the Yellow Onion is in Awakening Wood, the electric gate will be replaced with a normal gate.
+- If caves are shuffled, Violet Candypop Buds will appear outside of Emergence Cave, and Ivory Candypop Buds will appear in Awakening Wood by the ship.
 
 ## Report Bugs
 You can report any issues [here](https://github.com/chpas0/Pikmin2Archipelago/issues) or to [the Pikmin 1/2 Archipelago server thread](https://discord.com/channels/731205301247803413/1062964930174779452).
