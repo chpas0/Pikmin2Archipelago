@@ -22,11 +22,11 @@ Place all of the players' ```.yaml``` files into the ```Players``` folder of you
 ### Step 2
 Open the Archipelago Launcher (```ArchipelagoLauncher.exe```) and click the "Generate Button". If the generation succeeds, this should create a ```.zip``` archive in the ```output``` directory of your Archipelago installation.
 ### Step 3
-Unzip the archive that was just generated. There should be a ```.json``` file inside called ```pikmin2_<seed>_<player_name>.json```. This file will be referred to as the Pikmin 2 setup file for the rest of the guide.
+Unzip the archive that was just generated. There should be an ```.appik2``` file inside called ```AP_<seed>_P<slot>_<name>.appik2```. This file will be referred to as the Pikmin 2 setup file for the rest of the guide.
 ### Step 4
-Run the ```patcher.exe``` executable that was included with the Pikmin 2 APWorld release. It will prompt you for the Pikmin 2 setup file (the ```.json``` file from Step 3) and the Pikmin 2 USA .iso file. It will output a patched version of the game to the same directory that the executable is in, called ```pikmin2_<seed>.iso```.
+Run the ```patcher.exe``` executable that was included with the Pikmin 2 APWorld release. It will prompt you for the Pikmin 2 setup file (the ```.appik2``` file from Step 3) and the Pikmin 2 USA .iso file. It will output a patched version of the game to the same directory that the executable is in, called ```pikmin2_<seed>.iso```.
 ### Step 5
-Make sure your Dolphin Slot A is set to use GCI Folder (Options > Configuration > GameCube > Device Settings > Slot A > Select "GCI Folder").
+Make sure your Dolphin Slot A is set to use GCI Folder (Options > Configuration > GameCube > Device Settings > Slot A > Select "GCI Folder"). Also, make sure that Enable MMU and Extra Memory are turned off.
 ### Step 6
 Re-open the Archipelago Launcher, and click the ```Pikmin2Client``` button. You will be prompted for the patched Pikmin 2 .iso file and the Pikmin 2 setup file. If this is your first time running the client, you will also be asked for your Dolphin executable file and your Dolphin save directory (usually ```C:/Users/<username>/AppData/Roaming/Dolphin Emulator/GC/USA/Card A```); these paths will be saved to your ```host.yaml``` so you don't need to select them each time.
 ### Step 7
@@ -38,8 +38,6 @@ The client and an instance of Dolphin should launch. You can then connect to the
 ## Hosting a Multiworld Game
 You can upload the generated ```.zip``` file [here](https://archipelago.gg/uploads) to launch a server.
 
-# IMPORTANT NOTE: You must delete the ```.json``` file (setup file) from the .zip archive before uploading it, otherwise the server will not launch.
-
 ## Playing the Game / FAQ
 There are a few important quirks that must be observed when playing.
 - You must use the leftmost file slot, otherwise the passed data will get overwritten and the client will not be able to properly read the items. To be extra safe, you may also want to clear out the other save slots.
@@ -48,7 +46,7 @@ There are a few important quirks that must be observed when playing.
 - Items take some time to be received by the game, so if there is a large queue of items it may take a bit for all of them to be processed. This is completely normal!
 - The game will freeze for a split second when picking up a treasure - this is also normal. In addition, certain off-world items obtained in caves will not bring up the treasure collect screen due to the way they are implemented. 
 - Off-world items in caves will respawn after being collected. Collecting them a second time won't do anything.
-- Off-world items are all worth 0 Pokos. The only exception to this is if an off-world item appears in the Day 1 treasure spot (Courage Reactor) - if this occurs, the off-world item will be worth 1 Poko because otherwise the game will not register that treasure has been collected and the day will never end. 
+- Off-world items are all worth 0 Pokos.
 - If you ever quit and relaunch the game and then look at your save file, the displayed poko count, treasure count, and play time may/should be filled with garbage data (really big numbers). These values are only for display and will not affect your game.
 - While you are able to collect enemy corpses to repay the debt if you want, the randomizer's logic should ensure that the debt is repayable without collecting any enemy corpses. In fact, if your goal is set to collect a certain number of Pokos, the client will only recognize Pokos obtained from treasure, so it may not automatically release if you hit your goal.
 - Don't open the Piklopedia or the Treasure Hoard! These will crash the game!
@@ -58,4 +56,4 @@ There are a few important quirks that must be observed when playing.
 - If caves are shuffled, Violet Candypop Buds will appear outside of Emergence Cave, and Ivory Candypop Buds will appear in Awakening Wood by the ship.
 
 ## Report Bugs
-You can report any issues [here](https://github.com/chpas0/Pikmin2Archipelago/issues) or to [the Pikmin 1/2 Archipelago server thread](https://discord.com/channels/731205301247803413/1062964930174779452).
+You can report any issues [here](https://github.com/chpas0/Pikmin2Archipelago/issues) or to [the Pikmin 2 Archipelago server thread](https://discord.com/channels/731205301247803413/1062964930174779452).
