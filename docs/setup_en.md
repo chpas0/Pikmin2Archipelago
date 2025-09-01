@@ -49,11 +49,32 @@ There are a few important quirks that must be observed when playing.
 - Off-world items are all worth 0 Pokos.
 - If you ever quit and relaunch the game and then look at your save file, the displayed poko count, treasure count, and play time may/should be filled with garbage data (really big numbers). These values are only for display and will not affect your game.
 - While you are able to collect enemy corpses to repay the debt if you want, the randomizer's logic should ensure that the debt is repayable without collecting any enemy corpses. In fact, if your goal is set to collect a certain number of Pokos, the client will only recognize Pokos obtained from treasure, so it may not automatically release if you hit your goal.
-- Don't open the Piklopedia or the Treasure Hoard! These will crash the game!
-- The Spherical Atlas and Geographic Projection function slightly differently. In vanilla, the Spherical Atlas opens the Awakening Wood and the Geographic Projection opens the Perplexing Pool. In this, collecting either one will open the Awakening Wood, and collecting both will open the Perplexing Pool.
-- If a treasure is usually buried in vanilla, it will remain buried even if its location changes. Logic should ensure that buried treasures never occur in areas inaccessible to White Pikmin (water, high ledges, etc.).
+- If a treasure is usually buried/partially buried in vanilla, it will remain buried even if its location changes. Logic should ensure that buried treasures never occur in areas inaccessible to White Pikmin (water, high ledges, etc.).
 - The water around the Blue Onion is removed. If onions are shuffled, and the Yellow Onion is in Awakening Wood, the electric gate will be replaced with a normal gate.
 - If caves are shuffled, Violet Candypop Buds will appear outside of Emergence Cave, and Ivory Candypop Buds will appear in Awakening Wood by the ship.
+- Cave keys open the cave's vanilla location, i.e., if you collect the Emergence Cave Entrance Key, it will open the first cave in Valley of Repose. 
+- The water around Submerged Castle has been removed so that the cave can be shuffled. You can get all types to the location by throwing them onto a ledge and whistling them down from the other side. If Submerged Castle is shuffled to a different location, its blues-only requirement will be shuffled with it.
+- If your client fails to link, or the client freezes when you try and connect to the Archipelago server, make sure your save path is correct. Also, make sure Enable MMU is not on (Config > Advanced > Enable MMU) and both memory sliders under Memory Override are at their lowest values (24 MB for MEM1, 64 MB for MEM2).
+## Location Abbreviations
+| Location | Abbreviation |
+| Valley of Repose | VoR |
+| Awakening Wood | AW |
+| Perplexing Pool | PP |
+| Wistful Wild | WW |
+| Emergence Cave | EC |
+| Subterranean Complex | SC |
+| Frontier Cavern | FC |
+| Hole of Beasts | HoB |
+| White Flower Garden | WFG |
+| Bulblax Kingdom | BK |
+| Snagret Hole | SH |
+| Citadel of Spiders | CoS |
+| Glutton's Kitchen | GK |
+| Shower Room | SR |
+| Submerged Castle | SMGC |
+| Cavern of Chaos | CoC |
+| Hole of Heroes | HoH |
+| Dream Den | DD |
 
 ## Report Bugs
 You can report any issues [here](https://github.com/chpas0/Pikmin2Archipelago/issues) or to [the Pikmin 2 Archipelago server thread](https://discord.com/channels/731205301247803413/1062964930174779452).

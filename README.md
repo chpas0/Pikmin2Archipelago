@@ -8,5 +8,5 @@ Any questions or issues can be reported [here](https://github.com/chpas0/Pikmin2
 
 ## Credits
 Mod by chpas  
-Off-World Item model by fracta1fa1th  
+Off-World Item model + Onion Marble models by fracta1fa1th  
 Special thanks to members of the Pikmin modding community for helping answer game knowledge questions and members of the Archipelago community for testing the mod.  
