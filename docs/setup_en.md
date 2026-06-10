@@ -28,7 +28,7 @@ Unzip the archive that was just generated. There should be an ```.appik2``` file
 #### Step 4
 Run the ```patcher.exe``` executable that was included with the Pikmin 2 APWorld release. It will prompt you for the Pikmin 2 setup file (the ```.appik2``` file from Step 3) and the Pikmin 2 USA .iso file. It will output a patched version of the game to the same directory that the executable is in, called ```pikmin2_<seed>.iso```.
 #### Step 5
-Make sure your Dolphin Slot A is set to use GCI Folder (Options > Configuration > GameCube > Device Settings > Slot A > Select "GCI Folder"). Also, make sure that Enable MMU and Extra Memory are turned off.
+Make sure your Dolphin Slot A is set to use GCI Folder (Options > Configuration > GameCube > Device Settings > Slot A > Select "GCI Folder"). Also, make sure that Enable MMU and Memory Override are turned off.
 #### Step 6
 Re-open the Archipelago Launcher, and click the ```Pikmin2Client``` button. You will be prompted for the patched Pikmin 2 .iso file and the Pikmin 2 setup file. If this is your first time running the client, you will also be asked for your Dolphin executable file and your Dolphin save directory (usually ```C:/Users/<username>/AppData/Roaming/Dolphin Emulator/GC/USA/Card A```); these paths will be saved to your ```host.yaml``` so you don't need to select them each time.
 #### Step 7
@@ -36,6 +36,7 @@ The client and an instance of Dolphin should launch. You can then connect to the
 
 ## IMPORTANT NOTE: Make sure all other instances of Dolphin are closed before you launch the client.
 ## IMPORTANT NOTE 2: If either the client or the Dolphin instance are closed, you must close the other one. Only launch Dolphin through launching the client, otherwise the items will not appear in game. Items obtained while the client is closed will be lost!
+## IMPORTANT NOTE 3: You MUST use the leftmost save slot or else the game will NOT link properly!
 
 ## For Linux
 **NOTE: This is still in beta. Please contact me with any issues you find and I will fix bugs/clarify documentation as needed.**
@@ -67,7 +68,7 @@ Unzip the archive that was just generated. There should be an ```.appik2``` file
 #### Step 4
 Using Wine, run the ```patcher.exe``` executable that was included with the Pikmin 2 APWorld release. It will prompt you for the Pikmin 2 setup file (the ```.appik2``` file from Step 3) and the Pikmin 2 USA .iso file. It will output a patched version of the game to the same directory that the executable is in, called ```pikmin2_<seed>.iso```.
 #### Step 5
-Make sure your Dolphin Slot A is set to use GCI Folder (Options > Configuration > GameCube > Device Settings > Slot A > Select "GCI Folder"). Also, make sure that Enable MMU and Extra Memory are turned off.
+Make sure your Dolphin Slot A is set to use GCI Folder (Options > Configuration > GameCube > Device Settings > Slot A > Select "GCI Folder"). Also, make sure that Enable MMU and Memory Override are turned off.
 #### Step 6
 Re-open the Archipelago Launcher, and click the ```Pikmin2Client``` button. You will be prompted for the patched Pikmin 2 .iso file and the Pikmin 2 setup file. If this is your first time running the client, you will also be asked for your Dolphin save directory (usually ```~/.local/share/dolphin-emu/GC/USA/Card A```); these paths will be saved to your ```host.yaml``` so you don't need to select them each time. The client will assume Dolphin can be executed by running the ```dolphin-emu``` command, as is the default - if this isn't the case you can create a command alias.
 #### Step 7
@@ -75,6 +76,7 @@ The client and an instance of Dolphin should launch. You can then connect to the
 
 ## IMPORTANT NOTE: Make sure all other instances of Dolphin are closed before you launch the client.
 ## IMPORTANT NOTE 2: If either the client or the Dolphin instance are closed, you must close the other one. Only launch Dolphin through launching the client, otherwise the items will not appear in game. Items obtained while the client is closed will be lost!
+## IMPORTANT NOTE 3: You MUST use the leftmost save slot or else the game will NOT link properly!
 
 ## Hosting a Multiworld Game
 You can upload the generated ```.zip``` file [here](https://archipelago.gg/uploads) to launch a server.
