@@ -98,6 +98,7 @@ There are a few important quirks that must be observed when playing.
 - Cave keys open the cave's vanilla location, i.e., if you collect the Emergence Cave Entrance Key, it will open the first cave in Valley of Repose. 
 - The water around Submerged Castle has been removed so that the cave can be shuffled. You can get all types to the location by throwing them onto a ledge and whistling them down from the other side. If Submerged Castle is shuffled to a different location, its blues-only requirement will be shuffled with it.
 - If your client fails to link, or the client freezes when you try and connect to the Archipelago server, make sure your save path is correct. Also, make sure Enable MMU is not on (Config > Advanced > Enable MMU) and both memory sliders under Memory Override are at their lowest values (24 MB for MEM1, 64 MB for MEM2).
+- If non-progressive globes are on, Awakening Wood and Perplexing Pool will open as soon as you visit the world map for the first time; however, you won't be able to land in them until you get the respective globe. When you repay the debt, Wistful Wild will open, but you won't be able to land there until you get both globes.
 
 ## Location Abbreviations
 
