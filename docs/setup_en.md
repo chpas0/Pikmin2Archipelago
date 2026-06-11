@@ -100,6 +100,7 @@ There are a few important quirks that must be observed when playing.
 - If your client fails to link, or the client freezes when you try and connect to the Archipelago server, make sure your save path is correct. Also, make sure Enable MMU is not on (Config > Advanced > Enable MMU) and both memory sliders under Memory Override are at their lowest values (24 MB for MEM1, 64 MB for MEM2).
 
 ## Location Abbreviations
+
 | Location | Abbreviation |  
 | Valley of Repose | VoR |  
 | Awakening Wood | AW |  
