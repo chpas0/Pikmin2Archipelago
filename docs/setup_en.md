@@ -102,6 +102,7 @@ There are a few important quirks that must be observed when playing.
 ## Location Abbreviations
 
 | Location | Abbreviation |  
+| --- | --- |  
 | Valley of Repose | VoR |  
 | Awakening Wood | AW |  
 | Perplexing Pool | PP |  
