@@ -100,25 +100,25 @@ There are a few important quirks that must be observed when playing.
 - If your client fails to link, or the client freezes when you try and connect to the Archipelago server, make sure your save path is correct. Also, make sure Enable MMU is not on (Config > Advanced > Enable MMU) and both memory sliders under Memory Override are at their lowest values (24 MB for MEM1, 64 MB for MEM2).
 
 ## Location Abbreviations
-| Location | Abbreviation |
-| Valley of Repose | VoR |
-| Awakening Wood | AW |
-| Perplexing Pool | PP |
-| Wistful Wild | WW |
-| Emergence Cave | EC |
-| Subterranean Complex | SC |
-| Frontier Cavern | FC |
-| Hole of Beasts | HoB |
-| White Flower Garden | WFG |
-| Bulblax Kingdom | BK |
-| Snagret Hole | SH |
-| Citadel of Spiders | CoS |
-| Glutton's Kitchen | GK |
-| Shower Room | SR |
-| Submerged Castle | SMGC |
-| Cavern of Chaos | CoC |
-| Hole of Heroes | HoH |
-| Dream Den | DD |
+| Location | Abbreviation |  
+| Valley of Repose | VoR |  
+| Awakening Wood | AW |  
+| Perplexing Pool | PP |  
+| Wistful Wild | WW |  
+| Emergence Cave | EC |  
+| Subterranean Complex | SC |  
+| Frontier Cavern | FC |  
+| Hole of Beasts | HoB |  
+| White Flower Garden | WFG |  
+| Bulblax Kingdom | BK |  
+| Snagret Hole | SH |  
+| Citadel of Spiders | CoS |  
+| Glutton's Kitchen | GK |  
+| Shower Room | SR |  
+| Submerged Castle | SMGC |  
+| Cavern of Chaos | CoC |  
+| Hole of Heroes | HoH |  
+| Dream Den | DD |  
 
 ## Boss and Enemy Randomization
 In case the options for boss and enemy randomization are not clear, they will be clarified here:
